@@ -9,6 +9,8 @@ vhosts:
   - name: vps_messages
     channels:
       - input
-      - output
+      - output_telegram
+      - output_google_sheets
       - output_test
+      - output_1c
 
