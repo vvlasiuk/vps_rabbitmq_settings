@@ -1,0 +1,14 @@
+# RabbitMQ VPS Configuration Example
+# 
+# Two formats are supported:
+
+# NEW FORMAT: VHosts with Channels
+# Each vhost can have multiple message channels (e.g., input, output)
+# This creates separate exchanges and queues for each channel
+vhosts:
+  - name: vps_messages
+    channels:
+      - input
+      - output
+      - output_test
+
