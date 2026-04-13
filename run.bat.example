@@ -1,1 +1,1 @@
-python bootstrap_rabbitmq.py --env-file .env.bot_name
+python scripts\bootstrap_rabbitmq.py --env-file .env.bot_name
