@@ -5,10 +5,12 @@ import argparse
 import sys
 from pathlib import Path
 
-from .rabbitmq.bootstrap import bootstrap, print_summary
-from .rabbitmq.config import load_config, parse_bootstrap_settings
-from .rabbitmq.users import append_users_file
-
+# from .rabbitmq.bootstrap import bootstrap, print_summary
+# from .rabbitmq.config import load_config, parse_bootstrap_settings
+# from .rabbitmq.users import append_users_file
+from rabbitmq.bootstrap import bootstrap, print_summary
+from rabbitmq.config import load_config, parse_bootstrap_settings
+from rabbitmq.users import append_users_file
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="RabbitMQ client bootstrap")
