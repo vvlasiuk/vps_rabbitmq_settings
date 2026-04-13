@@ -6,3 +6,4 @@ config.debug.yaml
 users
 .env
 .env.debug
+run.bat
