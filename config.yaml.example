@@ -13,4 +13,5 @@ vhosts:
       - output_google_sheets
       - output_test
       - output_1c
+      - sys_error
 
