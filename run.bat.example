@@ -1,1 +1,6 @@
 python -m scripts.bootstrap_rabbitmq --env-file .env
+
+@echo off
+set PYTHONPATH=%~dp0scripts;%PYTHONPATH%
+"%~dp0.venv\Scripts\python.exe" -m scripts.bootstrap_rabbitmq --env-file .env
+pause
